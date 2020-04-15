@@ -1,0 +1,49 @@
+body {
+    font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+    padding: 0;
+}
+
+.build {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  text-align: center;
+  width: 34px;
+}
+
+.builds {
+  float: left;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.footer {
+  color: #fff;
+  background-color: gray;
+  font-size: 8px;
+  font-weight: 300;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#footerText {
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
